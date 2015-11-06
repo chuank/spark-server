@@ -23,12 +23,12 @@ module.exports = {
 	userDataDir: path.join(__dirname, "users"),
 	coreKeysDir: path.join(__dirname, "core_keys"),
 
-	coreRequestTimeout: 30000,
-	isCoreOnlineTimeout: 2000,
+	coreRequestTimeout: 10000,		// 30000
+	isCoreOnlineTimeout: 1000,		// 2000
 
-	coreSignalTimeout: 30000,
-	coreFlashTimeout: 90000,
+	coreSignalTimeout: 10000,			// 30000
+	coreFlashTimeout: 90000,			// 90000
 
-	maxHooksPerUser: 20,
-	maxHooksPerDevice: 10,
+	maxHooksPerUser: 500,					// 20
+	maxHooksPerDevice: 100,				// 10
 };
